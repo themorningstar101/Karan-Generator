@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Karan Generator — Premium Power Solutions in Delhi NCR</title>
+  <meta name="description" content="Karan Generator provides reliable generator sales, rental, repair & maintenance services across Delhi NCR. Trusted by 500+ clients for uninterrupted power supply.">
+  <meta name="keywords" content="generator, power generator, diesel generator, generator rental, generator repair, Delhi, Rohini, power solutions">
+  <meta property="og:title" content="Karan Generator — Premium Power Solutions">
+  <meta property="og:description" content="Your trusted partner for generator sales, rental, repair & maintenance in Delhi NCR.">
+  <meta property="og:type" content="website">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Page Loader -->
+  <div class="page-loader" id="pageLoader">
+    <div class="loader-icon"></div>
+  </div>
+
+  <!-- Scroll Progress -->
+  <div class="scroll-progress" id="scrollProgress"></div>
+
+  <!-- ===== NAVIGATION ===== -->
+  <nav class="navbar" id="navbar">
+    <div class="container">
+      <a href="#" class="logo" id="logo">
+        <div class="logo-icon">⚡</div>
+        Karan Generator
+      </a>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#services">Services</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#showcase">Gallery</a></li>
+        <li><a href="#testimonials">Reviews</a></li>
+        <li><a href="#location">Location</a></li>
+        <li><a href="#contact" class="nav-cta">Get Quote</a></li>
+      </ul>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="hero">
+    <div class="hero-bg">
+      <img src="hero.png" alt="Industrial power generator" width="1920" height="1080" fetchpriority="high">
+    </div>
+    <div class="hero-orb hero-orb--1"></div>
+    <div class="hero-orb hero-orb--2"></div>
+
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-badge">
+          <span class="dot"></span>
+          Delhi NCR's Trusted Power Partner
+        </div>
+
+        <h1>
+          Uninterrupted<br>
+          <span class="highlight">Power Solutions</span><br>
+          You Can Trust
+        </h1>
+
+        <p>
+          From diesel generators to complete power backup systems — Karan Generator
+          delivers reliable, efficient, and affordable energy solutions for homes,
+          businesses, and industrial facilities across Delhi NCR.
+        </p>
+
+        <div class="hero-actions">
+          <a href="tel:+919999999999" class="btn btn-primary" id="heroCallBtn">
+            📞 Call Now
+          </a>
+          <a href="#services" class="btn btn-secondary" id="heroServicesBtn">
+            Explore Services →
+          </a>
+        </div>
+
+        <div class="hero-stats">
+          <div class="stat">
+            <div class="stat-number"><span class="counter" data-target="500">0</span>+</div>
+            <div class="stat-label">Happy Clients</div>
+          </div>
+          <div class="stat">
+            <div class="stat-number"><span class="counter" data-target="15">0</span>+</div>
+            <div class="stat-label">Years Experience</div>
+          </div>
+          <div class="stat">
+            <div class="stat-number"><span class="counter" data-target="1000">0</span>+</div>
+            <div class="stat-label">Projects Done</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-image reveal-right">
+        <img src="hero.png" alt="Premium diesel generator by Karan Generator" width="600" height="400">
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SERVICES ===== -->
+  <section class="services" id="services">
+    <div class="container">
+      <div class="services-header reveal">
+        <span class="section-tag">Our Services</span>
+        <h2 class="section-title">Complete <span class="highlight">Power Solutions</span></h2>
+        <p class="section-desc">
+          We offer a comprehensive range of generator services to keep your power running 24/7, 
+          from sales and rentals to expert maintenance and emergency repairs.
+        </p>
+      </div>
+
+      <div class="services-grid stagger">
+        <div class="service-card reveal" style="--i: 0" id="serviceSales">
+          <div class="service-icon">🔋</div>
+          <h3>Generator Sales</h3>
+          <p>Wide range of diesel and portable generators from top brands. Get the perfect power solution for your home, office, or industrial needs.</p>
+        </div>
+
+        <div class="service-card reveal" style="--i: 1" id="serviceRental">
+          <div class="service-icon">🔄</div>
+          <h3>Generator Rental</h3>
+          <p>Flexible rental plans for events, construction sites, and temporary power needs. Available on daily, weekly, and monthly basis.</p>
+        </div>
+
+        <div class="service-card reveal" style="--i: 2" id="serviceRepair">
+          <div class="service-icon">🔧</div>
+          <h3>Repair & Maintenance</h3>
+          <p>Expert technicians providing scheduled maintenance, emergency repairs, and annual service contracts to keep your generator running smoothly.</p>
+        </div>
+
+        <div class="service-card reveal" style="--i: 3" id="serviceInstall">
+          <div class="service-icon">⚙️</div>
+          <h3>Installation</h3>
+          <p>Professional installation services including electrical wiring, ATS panels, and complete power backup system setup for seamless operation.</p>
+        </div>
+
+        <div class="service-card reveal" style="--i: 4" id="serviceSpare">
+          <div class="service-icon">🛡️</div>
+          <h3>Spare Parts</h3>
+          <p>Genuine spare parts and accessories for all major generator brands. Quick availability and competitive pricing guaranteed.</p>
+        </div>
+
+        <div class="service-card reveal" style="--i: 5" id="serviceConsult">
+          <div class="service-icon">📋</div>
+          <h3>Consultation</h3>
+          <p>Free power assessment and expert consultation to help you choose the right generator size and type for your specific requirements.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section class="about" id="about">
+    <div class="container">
+      <div class="about-image reveal-left">
+        <img src="service.png" alt="Karan Generator technicians servicing equipment" width="600" height="400">
+        <div class="about-badge">
+          <div class="about-badge-icon">🏆</div>
+          <div class="about-badge-text">
+            <strong>15+ Years</strong>
+            <span>Industry Experience</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="about-content reveal-right">
+        <span class="section-tag">Why Choose Us</span>
+        <h2 class="section-title">Delhi NCR's Most <span class="highlight">Trusted</span> Generator Partner</h2>
+        <p class="section-desc">
+          With over 15 years of experience in the power generation industry, Karan Generator 
+          has built a reputation for reliability, quality service, and customer satisfaction.
+        </p>
+
+        <div class="feature-list">
+          <div class="feature-item">
+            <div class="feature-check">✓</div>
+            <div>
+              <h4>24/7 Emergency Support</h4>
+              <p>Round-the-clock assistance for breakdowns and urgent power needs</p>
+            </div>
+          </div>
+          <div class="feature-item">
+            <div class="feature-check">✓</div>
+            <div>
+              <h4>Certified Technicians</h4>
+              <p>Trained professionals with expertise in all major generator brands</p>
+            </div>
+          </div>
+          <div class="feature-item">
+            <div class="feature-check">✓</div>
+            <div>
+              <h4>Competitive Pricing</h4>
+              <p>Best prices in Delhi NCR with transparent billing and no hidden charges</p>
+            </div>
+          </div>
+          <div class="feature-item">
+            <div class="feature-check">✓</div>
+            <div>
+              <h4>Pan-Delhi Coverage</h4>
+              <p>Serving all areas across Delhi, Gurgaon, Noida, Faridabad & Ghaziabad</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SHOWCASE ===== -->
+  <section class="showcase" id="showcase">
+    <div class="container">
+      <div class="showcase-header reveal">
+        <span class="section-tag">Our Work</span>
+        <h2 class="section-title">Power in <span class="highlight">Action</span></h2>
+        <p class="section-desc">
+          From large-scale industrial setups to event power supply — explore some of 
+          our recent projects and installations across Delhi NCR.
+        </p>
+      </div>
+
+      <div class="showcase-grid stagger">
+        <div class="showcase-card reveal-scale" style="--i: 0">
+          <img src="hero.png" alt="Industrial diesel generator installation" width="400" height="300">
+          <div class="overlay">
+            <div>
+              <h3>Industrial Setup</h3>
+              <p>Heavy-duty generator installation</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="showcase-card reveal-scale" style="--i: 1">
+          <img src="rental.png" alt="Event power supply with multiple generators" width="400" height="300">
+          <div class="overlay">
+            <div>
+              <h3>Event Power Supply</h3>
+              <p>Multi-generator rental for festivals</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="showcase-card reveal-scale" style="--i: 2">
+          <img src="installation.png" alt="Commercial building generator installation" width="400" height="300">
+          <div class="overlay">
+            <div>
+              <h3>Commercial Installation</h3>
+              <p>Standby power for office buildings</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TESTIMONIALS ===== -->
+  <section class="testimonials" id="testimonials">
+    <div class="container">
+      <div class="testimonials-header reveal">
+        <span class="section-tag">Client Reviews</span>
+        <h2 class="section-title">What Our <span class="highlight">Clients Say</span></h2>
+        <p class="section-desc">
+          Don't just take our word for it — hear from the hundreds of satisfied 
+          customers who trust Karan Generator for their power needs.
+        </p>
+      </div>
+
+      <div class="testimonials-grid stagger">
+        <div class="testimonial-card reveal" style="--i: 0" id="testimonial1">
+          <div class="testimonial-stars">★★★★★</div>
+          <blockquote>
+            "Excellent service! They installed a 125 KVA generator at our factory in record time. 
+            The team was professional, and their pricing was very competitive. Highly recommend!"
+          </blockquote>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">RK</div>
+            <div>
+              <strong>Rajesh Kumar</strong>
+              <span>Factory Owner, Narela</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card reveal" style="--i: 1" id="testimonial2">
+          <div class="testimonial-stars">★★★★★</div>
+          <blockquote>
+            "We've been renting generators from Karan Generator for our wedding events. 
+            Always on time, well-maintained machines, and great support. Our go-to power partner!"
+          </blockquote>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">PS</div>
+            <div>
+              <strong>Priya Sharma</strong>
+              <span>Event Planner, Rohini</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card reveal" style="--i: 2" id="testimonial3">
+          <div class="testimonial-stars">★★★★★</div>
+          <blockquote>
+            "Their AMC service is outstanding. Regular maintenance visits, quick response 
+            to breakdowns, and genuine spare parts. Our generator has been running flawlessly."
+          </blockquote>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">AS</div>
+            <div>
+              <strong>Amit Singh</strong>
+              <span>Hospital Admin, Pitampura</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== LOCATION ===== -->
+  <section class="location" id="location">
+    <div class="container">
+      <div class="map-wrapper reveal-left">
+        <iframe 
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3498.5!2d77.0582095!3d28.7152613!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d03fa3cb7b57f%3A0xcc5104fed30b802f!2sKaran%20Generator!5e0!3m2!1sen!2sin!4v1718000000000!5m2!1sen!2sin"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          title="Karan Generator location on Google Maps">
+        </iframe>
+      </div>
+
+      <div class="location-info reveal-right">
+        <span class="section-tag">Find Us</span>
+        <h2 class="section-title">Visit <span class="highlight">Our Location</span></h2>
+        <p class="section-desc">
+          Conveniently located in Delhi — visit our showroom to explore our full range 
+          of generators or get a personalized consultation.
+        </p>
+
+        <div class="info-card" id="infoAddress">
+          <div class="info-icon">📍</div>
+          <div>
+            <h4>Address</h4>
+            <p>Karan Generator, Rohini Sector Area, Delhi, 110085, India</p>
+          </div>
+        </div>
+
+        <div class="info-card" id="infoPhone">
+          <div class="info-icon">📞</div>
+          <div>
+            <h4>Phone</h4>
+            <p><a href="tel:+919999999999">+91 99999 99999</a></p>
+          </div>
+        </div>
+
+        <div class="info-card" id="infoHours">
+          <div class="info-icon">🕐</div>
+          <div>
+            <h4>Working Hours</h4>
+            <p>Mon – Sat: 9:00 AM – 7:00 PM<br>Sunday: 10:00 AM – 4:00 PM</p>
+          </div>
+        </div>
+
+        <div class="info-card" id="infoDirections">
+          <div class="info-icon">🗺️</div>
+          <div>
+            <h4>Directions</h4>
+            <p><a href="https://maps.app.goo.gl/ffi5pk6h5DzUHKSV7" target="_blank" rel="noopener noreferrer">Open in Google Maps →</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CTA ===== -->
+  <section class="cta" id="contact">
+    <div class="container">
+      <div class="cta-box reveal-scale">
+        <span class="section-tag">Get Started</span>
+        <h2 class="section-title">Ready for <span class="highlight">Reliable Power?</span></h2>
+        <p class="section-desc">
+          Whether you need to buy, rent, or service a generator — our team is ready 
+          to help. Get a free consultation and quote today!
+        </p>
+        <div class="cta-actions">
+          <a href="tel:+919999999999" class="btn btn-primary" id="ctaCallBtn">📞 Call Now</a>
+          <a href="https://wa.me/919999999999?text=Hi%20Karan%20Generator%2C%20I%20need%20a%20quote%20for%20a%20generator." 
+             class="btn btn-secondary" id="ctaWhatsappBtn" target="_blank" rel="noopener noreferrer">
+            💬 WhatsApp Us
+          </a>
+          <a href="https://maps.app.goo.gl/ffi5pk6h5DzUHKSV7" class="btn btn-secondary" id="ctaVisitBtn" target="_blank" rel="noopener noreferrer">
+            📍 Visit Showroom
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer" id="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="#" class="logo">
+            <div class="logo-icon">⚡</div>
+            Karan Generator
+          </a>
+          <p>Your trusted partner for premium power generation solutions across Delhi NCR. Powering homes, businesses, and industries since 2009.</p>
+        </div>
+
+        <div class="footer-col">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="#services">Generator Sales</a></li>
+            <li><a href="#services">Generator Rental</a></li>
+            <li><a href="#services">Repair & Maintenance</a></li>
+            <li><a href="#services">Installation</a></li>
+            <li><a href="#services">Spare Parts</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#showcase">Gallery</a></li>
+            <li><a href="#testimonials">Reviews</a></li>
+            <li><a href="#location">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Areas Served</h4>
+          <ul>
+            <li><a href="#">Rohini</a></li>
+            <li><a href="#">Pitampura</a></li>
+            <li><a href="#">Narela</a></li>
+            <li><a href="#">Model Town</a></li>
+            <li><a href="#">All Delhi NCR</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2024 Karan Generator. All rights reserved.</p>
+        <div class="footer-socials">
+          <a href="#" class="social-link" aria-label="Facebook" id="socialFb">f</a>
+          <a href="#" class="social-link" aria-label="Instagram" id="socialIg">📷</a>
+          <a href="#" class="social-link" aria-label="WhatsApp" id="socialWa">💬</a>
+          <a href="tel:+919999999999" class="social-link" aria-label="Phone" id="socialPh">📞</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
